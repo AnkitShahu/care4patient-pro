@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --h1-desk: 3rem;
+    --h1-mob: 2.5rem;
+    --h2-desk: 2.1rem;
+    --h2-mob: 2rem;
+    --h3-desk: 1.8rem;
+    --h3-mob: 1.8rem;
+    --h4-desk: 1.8rem;
+    --h4-mob: 1.5rem;
+    --h5-desk: 1.5rem;
+    --h5-mob: 1.3rem;
+    --h6-desk: 1rem;
+    --h6-mob: 1rem;
+    --heading-font-weight: 600;
+    --heading-font: 'Poppins', sans-serif;
+    --para-font: 'Work Sans', sans-serif;
+    --light-blue: #00708e;
+    --dark-blue: #115278;
+    --light-green: #32cfc8;
+    --dark-green: #1ebdb6;
+    --grey: #e6e8e9;
+    --black: #000;
+    --white: #fff;
+    --gradient: linear-gradient(90deg, #115278 51%, #1ebeb6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    font-family: var(--para-font);
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.text-dark-blue {
+    color: var(--dark-blue) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--heading-font-weight) !important;
+    font-family: var(--heading-font) !important;
+    line-height: 1.2 !important;
+}
+
+h1 {
+    font-size: var(--h1-desk) !important;
+}
+
+h2 {
+    font-size: var(--h2-desk) !important;
+}
+
+h3 {
+    font-size: var(--h3-desk) !important;
+}
+
+h4 {
+    font-size: var(--h4-desk) !important;
+}
+
+h5 {
+    font-size: var(--h5-desk) !important;
+}
+
+h6 {
+    font-size: var(--h6-desk) !important;
+}
+
+p,
+p.para {
+    margin-bottom: 1rem !important;
+}
+
+p,
+p.para,
+li {
+    font-family: var(--para-font) !important;
+    font-size: 1rem !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--dark-blue) !important;
+}
+
+a:hover {
+    color: #000 !important;
+}
+
+ul {
+    list-style-type: none !important;
+}
+
+.bg-grey {
+    background-color: var(--grey) !important;
+}
+
+.he-widget-container .he-row {
+    display: flex !important;
+}
+
+.he-row h2 {
+    font-size: 1.1rem !important;
+    text-transform: capitalize;
+}
+
+.nav-item .nav-link,
+.nav-link {
+    font-family: var(--heading-font) !important;
+    font-weight: var(--heading-font-weight) !important;
+}
+
+li.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+footer {
+    background-color: var(--dark-green) !important;
+}
+
+footer .footer-sec-head {
+    font-family: var(--heading-font) !important;
+    font-weight: var(--heading-font-weight) !important;
+    font-size: 1.5rem !important;
+    color: var(--dark-blue);
+}
+
+footer .nav-link {
+    color: #fff !important;
+    font-family: var(--para-font) !important;
+    font-weight: 400 !important;
+    font-size: 1.1rem !important;
+}
+
+footer .nav-link:hover,
+footer a:hover {
+    color: var(--dark-blue) !important;
+}
+
+.grow {
+    transition: all 2s ease !important;
+    -webkit-transition: all 2s ease !important;
+    -moz-transition: all 2s ease !important;
+    -ms-transition: all 2s ease !important;
+    -o-transition: all 2s ease !important;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.MuiListItemText-secondary {
+    margin-bottom: 0 !important;
+}
+
+.blueFilledBtn {
+    padding: 0.5rem 1rem !important;
+    background-color: var(--dark-blue) !important;
+    border: 2px solid var(--dark-blue) !important;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#service .css-o69gx8-MuiCardMedia-root {
+    width: auto !important;
+}
+
+.square-right {
+    border: 10px solid rgba(128, 128, 128, 0.171);
+    border-right: none;
+    border-radius: 1.2rem 0 0 1.2rem;
+    -webkit-border-radius: 1.2rem 0 0 1.2rem;
+    -moz-border-radius: 1.2rem 0 0 1.2rem;
+    -ms-border-radius: 1.2rem 0 0 1.2rem;
+    -o-border-radius: 1.2rem 0 0 1.2rem;
+}
+
+.square-left {
+    border: 10px solid rgba(128, 128, 128, 0.171);
+    border-left: none;
+    border-radius: 0 1.2rem  1.2rem 0;
+    -webkit-border-radius: 0 1.2rem  1.2rem 0;
+    -moz-border-radius: 0 1.2rem  1.2rem 0;
+    -ms-border-radius: 0 1.2rem  1.2rem 0;
+    -o-border-radius: 0 1.2rem  1.2rem 0;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.clipPathBgGreyUp{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.clipPathBgGreyDown{
+    clip-path: polygon(0 0, 75% 1%, 100% 100%, 25% 100%);
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: var(--h1-mob) !important;
+    }
+
+    h2 {
+        font-size: var(--h2-mob) !important;
+    }
+
+    h3 {
+        font-size: var(--h3-mob) !important;
+    }
+
+    h4 {
+        font-size: var(--h4-mob) !important;
+    }
+
+    h5 {
+        font-size: var(--h5-mob) !important;
+    }
+
+    h6 {
+        font-size: var(--h6-mob) !important;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+        left: 0%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .bottomCurve {
+        margin-top: -4.2% !important;
+    }
+
+    .square-right {
+        border: 5px solid rgba(128, 128, 128, 0.171);
+    }
+
+    .square-left {
+        border: 5px solid rgba(128, 128, 128, 0.171);
+    }
+
+    .clipPathBgGreyUp{
+        clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    }
+    
+    .clipPathBgGreyDown{
+        clip-path: polygon(0 0, 95% 1%, 100% 100%, 5% 100%);
+    }
+}
+
+/* upper clippath */
+.upper_clipPath{
+    background-color: #1ebdb6;
+    height: 116px;
+    margin-bottom: -30px;
+    clip-path: polygon(100% 100%, 0% 100% , 0.00% 15.36%, 2.00% 17.72%, 4.00% 19.93%, 6.00% 21.85%, 8.00% 23.36%, 10.00% 24.37%, 12.00% 24.82%, 14.00% 24.67%, 16.00% 23.93%, 18.00% 22.66%, 20.00% 20.93%, 22.00% 18.85%, 24.00% 16.55%, 26.00% 14.17%, 28.00% 11.87%, 30.00% 9.79%, 32.00% 8.06%, 34.00% 6.78%, 36.00% 6.05%, 38.00% 5.90%, 40.00% 6.35%, 42.00% 7.36%, 44.00% 8.87%, 46.00% 10.79%, 48.00% 13.00%, 50.00% 15.36%, 52.00% 17.72%, 54.00% 19.93%, 56.00% 21.85%, 58.00% 23.36%, 60.00% 24.37%, 62.00% 24.82%, 64.00% 24.67%, 66.00% 23.93%, 68.00% 22.66%, 70.00% 20.93%, 72.00% 18.85%, 74.00% 16.55%, 76.00% 14.17%, 78.00% 11.87%, 80.00% 9.79%, 82.00% 8.06%, 84.00% 6.78%, 86.00% 6.05%, 88.00% 5.90%, 90.00% 6.35%, 92.00% 7.36%, 94.00% 8.87%, 96.00% 10.79%, 98.00% 13.00%, 100.00% 15.36%);
+   
+}
+.upper_clipPath2{
+    background-color: #1ebdb6;
+    height: 116px;
+    margin-bottom: -102px;
+    clip-path: polygon(100% 100%, 0% 100% , 0.00% 15.36%, 2.00% 17.72%, 4.00% 19.93%, 6.00% 21.85%, 8.00% 23.36%, 10.00% 24.37%, 12.00% 24.82%, 14.00% 24.67%, 16.00% 23.93%, 18.00% 22.66%, 20.00% 20.93%, 22.00% 18.85%, 24.00% 16.55%, 26.00% 14.17%, 28.00% 11.87%, 30.00% 9.79%, 32.00% 8.06%, 34.00% 6.78%, 36.00% 6.05%, 38.00% 5.90%, 40.00% 6.35%, 42.00% 7.36%, 44.00% 8.87%, 46.00% 10.79%, 48.00% 13.00%, 50.00% 15.36%, 52.00% 17.72%, 54.00% 19.93%, 56.00% 21.85%, 58.00% 23.36%, 60.00% 24.37%, 62.00% 24.82%, 64.00% 24.67%, 66.00% 23.93%, 68.00% 22.66%, 70.00% 20.93%, 72.00% 18.85%, 74.00% 16.55%, 76.00% 14.17%, 78.00% 11.87%, 80.00% 9.79%, 82.00% 8.06%, 84.00% 6.78%, 86.00% 6.05%, 88.00% 5.90%, 90.00% 6.35%, 92.00% 7.36%, 94.00% 8.87%, 96.00% 10.79%, 98.00% 13.00%, 100.00% 15.36%);
+   
+}
+.lower_clipPath{
+    background-color: #1ebdb6;
+    height: 116px;
+    margin-top:-80px;
+    clip-path: polygon(100% 0%, 0% 0% , 0.00% 42.00%, 2.00% 42.18%, 4.00% 42.72%, 6.00% 43.59%, 8.00% 44.75%, 10.00% 46.15%, 12.00% 47.72%, 14.00% 49.40%, 16.00% 51.10%, 18.00% 52.76%, 20.00% 54.29%, 22.00% 55.62%, 24.00% 56.70%, 26.00% 57.47%, 28.00% 57.91%, 30.00% 57.98%, 32.00% 57.70%, 34.00% 57.06%, 36.00% 56.10%, 38.00% 54.86%, 40.00% 53.41%, 42.00% 51.79%, 44.00% 50.10%, 46.00% 48.40%, 48.00% 46.78%, 50.00% 45.30%, 52.00% 44.03%, 54.00% 43.04%, 56.00% 42.36%, 58.00% 42.03%, 60.00% 42.06%, 62.00% 42.46%, 64.00% 43.19%, 66.00% 44.24%, 68.00% 45.54%, 70.00% 47.06%, 72.00% 48.70%, 74.00% 50.40%, 76.00% 52.09%, 78.00% 53.68%, 80.00% 55.10%, 82.00% 56.29%, 84.00% 57.20%, 86.00% 57.77%, 88.00% 58.00%, 90.00% 57.86%, 92.00% 57.36%, 94.00% 56.53%, 96.00% 55.40%, 98.00% 54.03%, 100.00% 52.47%);
+}
+.bottom-clipPath{
+    fill: #a51212;
+    transform-origin: center;
+    transform: rotateY(0deg);
+}
+.deskNavbarBrandMenu img {
+    min-width: 70% !important;
+    min-height: 70% !important;
+}
+
+.MuiListItem-root {
+    align-items: flex-start !important;
+}
+
+.MuiListItem-root .MuiListItemIcon-root {
+    min-width: 2rem !important;
+}
+
+.MuiListItem-root .MuiListItemText-root {
+    margin: 0 !important;
+}
+
+.MuiListItem-root .MuiListItemText-root span {
+    font-family: var(--para-font) !important;
+    font-size: 1rem !important;
+}
+
+.font-weight-bold .MuiTypography-root {
+    color: #000;
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: none !important;
+}
+
+@media only screen and (max-width: 390px) and (min-width :200px) {
+    section.teeth-missing-section1 {
+        padding-bottom: 140px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    header {
+        background-color: #fff;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        overflow-y: scroll;
+    }
+
+    .nav-menu.active {
+        background: #242222;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-menu.active .navbar-nav {
+        height: 100%;
+        width: 100%;
+        overflow-y: scroll;
+        overflow: hidden;
+    }
+
+    .nav-menu.active .menu-icon {
+        color: #fff !important;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+        left: 0%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+}
+
+#home_hero .slide {
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.offerPageOfferCard{
+    height: 36.5rem;
+}
+
+.offerPageOfferCard .manageHeight{height: 13rem;}
+
+
+@media only screen and (max-width: 600px){
+    .offerPageOfferCard, .offerPageOfferCard .manageHeight{
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .nav-item .nav-link {
+        font-size: 0.8rem;
+    }
+
+    .offerPageOfferCard{
+        height: 37.5rem;
+    }
+
+    .offerPageOfferCard .manageHeight{height: 18rem;}
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1500px){
+    .offerPageOfferCard .manageHeight{height: 14.5rem;}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .bottomCurve {
+        margin-top: -1.2% !important;
+    }
+
+    .offerPageOfferCard .manageHeight{height: 16rem;}
+}
+
+.MuiBox-root.css-178yklu li {
+    list-style: disc !important;
+}
+
+.tWCard{
+    height: 45.2rem;
+}
+
+.tab{
+    cursor: pointer;
+}
+
+.bg--blue, .bg--blue:hover{
+    background-color: var(--dark-blue) !important;
+    color: #fff;
+}
+
+
+.tabHead{
+    font-size: 1.8rem !important;
+}
+
+.cardContentTW{
+    position: relative !important;
+    height: 31.7rem !important;
+}
+
+.cardBtn{
+    position: absolute !important;
+    bottom: 1.5% !important;
+}
+
+@media only screen and (max-width: 600px){
+    .tWCard{
+        height: auto !important;
+    }
+
+    .tabHead{
+        font-size: 1.3rem !important;
+    }
+
+    .cardContentTW{
+        position: relative !important;
+        height: auto !important;
+    }
+
+    .cardBtn{
+        position: relative !important;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 992px){
+    .cardContentTW{
+        position: relative !important;
+        height: 33rem !important;
+    }
+
+    .cardBtn{
+        position: absolute !important;
+        bottom: 5% !important;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1280px){
+    .tWCard{
+        height: 48rem;
+    }
+
+    .cardContentTW{
+        position: relative !important;
+        height: 35rem !important;
+    }
+
+    .cardBtn{
+        position: absolute !important;
+        bottom: 5% !important;
+    }
+}
+
+.dropdown2:hover .dropdown-menu-2 {
+    display: block !important;
+    left: 13.5rem;
+    top: 0 !important
+}
+
+.dropdown2 .dropdown-menu-2 {
+    display: none !important;
+}
+
+/* /tab section */
+.css-1q2h7u5.Mui-selected {   
+    background: #115278;
+    color: #fff !important; 
+    font-weight: 600;
+}
+.css-1q2h7u5 {   
+    flex:1 !important;
+}
+
+
+/* service in topbar */
+
+.service-menu{
+    line-height: 0.7rem !important;
+}
+
+.dental-problem-menu{
+    line-height: 0.7rem !important;
+}
+
+  /* .dental-problems-section:hover{
+    display: block;
+    width: 600px;
+    
+}
+ li.nav-item.dropdown:hover .dental-problems-section{
+    display: block;
+    width: 480px;
+} 
+.dental-problems-section1{
+    width: 50%;
+    float: left;
+}
+.dental-problems-section2{
+    width: 50%;
+    float: right;
+} */
+
+/* Default styles for mobile-accordion (visible on mobile screens) */
+.mobile-accordion {
+    display: block;  
+  }
+  
+  /* Default styles for medium-large-layout (hidden on mobile screens) */
+  .medium-large-layout {
+    display: none;  
+  }
+  
+  /* Media query to show medium-large-layout on medium and large screens */
+  @media (min-width: 768px) {
+    .mobile-accordion {
+      display: none;  
+    }
+    .medium-large-layout {
+      display: block;  
+    }
+  }
+  
+  /* Styling for the accordion */
+  /* .accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;  
+  } */
+  
+  /* Expand the accordion when it's open */
+  /* .accordion-body.show {
+    max-height: 500px;  
+  }
+  
+   */

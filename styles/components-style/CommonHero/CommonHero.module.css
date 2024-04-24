@@ -1,0 +1,7 @@
+.commonHero{
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}

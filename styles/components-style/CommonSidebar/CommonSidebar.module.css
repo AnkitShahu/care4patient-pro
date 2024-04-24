@@ -1,0 +1,9 @@
+.fixedService{
+    position: sticky;
+    top: 12%;
+    left: 0%;
+    right: 0%;
+    display: block;
+    width: 100%;
+    z-index: 99;
+}

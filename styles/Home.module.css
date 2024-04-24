@@ -1,0 +1,192 @@
+.blueSpan{
+    color: var(--dark-blue);
+    font-family: var(--heading-font) !important;
+    font-size: 3rem !important;
+    font-weight: var(--heading-font-weight) !important;
+}
+
+.whiteSpan{
+    color: #fff;
+    font-weight: var(--heading-font-weight) !important;
+    font-size: 4.8rem !important;
+}
+
+.home_hero_head{
+    line-height: 1 !important;
+}
+
+.home_hero_para{
+    color: #fff;
+    font-size: 1.5rem !important;
+}
+
+.aboutSec{
+    background-color: var(--dark-green) !important;
+}
+
+.Home_About_Image{
+    margin-top: -14% !important;
+}
+
+.advSecHead{
+    color: var(--dark-blue);
+}
+
+.advSecBox{
+    height: 26rem;
+}
+
+
+
+.advCircleBlue{
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid var(--dark-blue);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.advCircleGreen{
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid var(--dark-green);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.home_offer_card{
+    height: 42rem;
+}
+
+.home_offer_button{
+    background-color: var(--dark-blue) !important;
+    font-size: 1.5rem !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    border: 2px solid var(--dark-blue) !important;
+}
+
+.home_offer_button:hover{
+    color: var(--dark-blue);
+}
+
+.home_offer_btnSmall{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    left: 5%;
+}
+
+.map{
+    background-image: url('../public/Home/Address/Map.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.addressBox{
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px){
+    .blueSpan{
+        font-size: 2.5rem !important;
+    }
+    
+    .whiteSpan{
+        font-size: 3.5rem !important;
+    }
+
+    .home_hero_para{
+        font-size: 1.2rem !important;
+    }
+
+    .advSecBox{
+        height: auto;
+    }
+
+    .home_offer_card{
+        height: auto;
+    }
+
+    .home_offer_btnSmall{
+        position: static;
+    }
+    .addressBox{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px){
+    .blueSpan{
+        font-size: 3rem !important;
+    }
+    
+    .whiteSpan{
+        font-size: 4.5rem !important;
+    }
+
+    .home_hero_para{
+        font-size: 1.4rem !important;
+    }
+}
+
+.slider1{
+    background-image: url('../public/Home/Hero/banner2.jpg');
+}
+
+.slider2{
+    background-image: url('../public/Home/Hero/banner1.jpg');
+}
+
+.slider3{
+    background-image: url('../public/Home/Hero/banner3.jpg');
+}
+
+
+@media only screen and (max-width: 600px){
+    .slider1{
+        background-image: url('../public/Home/Hero/banner1_m.jpg');
+    }
+    
+    .slider2{
+        background-image: url('../public/Home/Hero/banner2_m.jpg');
+    }
+    
+    .slider3{
+        background-image: url('../public/Home/Hero/banner3_m.jpg');
+    }
+}
+
+
+@media only screen and (min-width: 821px) and (max-width: 1024px){
+    .advSecBox{
+        height: 27rem;
+    }
+}
+
+@media only screen and (min-width: 1130px) and (max-width: 1299px){
+    .advSecBox{
+        height: 23rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px){
+    .advSecBox{
+        height: 27rem;
+    }
+}
+
+@media only screen and (min-width: 1481px){
+    .advSecBox{
+        height: 23rem;
+    }
+}

@@ -1,0 +1,77 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.46);
+}
+
+.deskNavbarBrand {
+    width: 17% !important;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .deskNavbarBrand {
+        width: 40% !important;
+    }
+
+    .deskNavbarBrandMenu {
+        width: 80% !important;
+        margin: 1px auto;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1250px) {
+    .topbarIcons {
+        font-size: 0.7rem !important;
+    }
+
+    .topbarText {
+        font-size: 0.7rem !important;
+    }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1251px) {
+    .topbarIcons {
+        font-size: 0.75rem !important;
+    }
+
+    .topbarText {
+        font-size: 0.75rem !important;
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1301px) {
+    .topbarIcons {
+        font-size: 0.8rem !important;
+    }
+
+    .topbarText {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 1525px) and (min-width: 1401px) {
+    .topbarIcons {
+        font-size: 0.85rem !important;
+    }
+
+    .topbarText {
+        font-size: 0.85rem !important;
+    }
+}
+
+@media only screen and (min-width: 1526px) {
+    .topbarIcons {
+        font-size: 0.9rem !important;
+    }
+
+    .topbarText {
+        font-size: 0.9rem !important;
+    }
+}

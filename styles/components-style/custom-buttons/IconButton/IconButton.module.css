@@ -1,0 +1,43 @@
+.iconButton {
+    border: 2px solid var(--dark-blue);
+}
+
+.filled {
+    background-color: var(--dark-blue);
+}
+
+.filled a svg{
+    fill: #fff;
+}
+
+.filled:hover{
+    border: 2px solid var(--dark-blue);
+}
+
+.filled:hover a svg{
+    fill: var(--dark-blue);
+}
+
+.outlined {
+    background-color: transparent;
+}
+
+.outlined:hover{
+    background-color: var(--dark-blue);
+}
+
+.outlined:hover a svg{
+    fill: #fff;
+}
+
+@media only screen and (max-width: 600px){
+    .iconButton {
+        height: 2rem !important;
+        width: 2rem !important;
+    }
+
+    .iconButton a svg{
+        font-size: 1rem !important;
+        font-weight: 700 !important;
+    }
+}

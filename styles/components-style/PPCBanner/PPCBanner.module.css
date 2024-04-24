@@ -1,0 +1,14 @@
+.banner{
+    height: 83vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 8.35rem;
+}
+
+@media only screen and (max-width: 600px){
+    .banner{
+        background-position: 28% 0%;
+    }
+}

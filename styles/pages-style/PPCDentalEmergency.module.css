@@ -1,0 +1,21 @@
+.section1{
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url(../../public/PPC/design.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+.section2{
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url(../../public/PPC/design-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}

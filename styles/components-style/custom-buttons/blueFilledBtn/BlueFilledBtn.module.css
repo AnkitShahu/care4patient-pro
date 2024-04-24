@@ -1,0 +1,44 @@
+.blueFilledBtn{
+    padding: 0.5rem 1rem !important;
+    background-color: var(--dark-blue) !important;
+    border: 2px solid var(--dark-blue) !important;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.blueFilledBtn a{
+    color: #fff !important;
+    font-family: var(--heading-font) !important;
+    letter-spacing: 1px;
+    font-weight: var(--heading-font-weight);
+}
+
+.blueFilledBtn:hover{
+    background-color: transparent !important;
+}
+
+.blueFilledBtn:hover a{
+    color: var(--dark-blue) !important;
+}
+
+@media only screen and (max-width: 600px){
+    .blueFilledBtn{
+        padding: 0.3rem 0.6rem !important;
+        margin-right: 0.25rem;
+    }
+
+    .blueFilledBtn a{
+        font-size: 0.65rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1402px){
+    .blueFilledBtn{
+        padding: 0.25rem 0.5rem !important;
+        margin-right: 0.25rem;
+    }
+
+    .blueFilledBtn a{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,33 @@
+.blueOutlinedBtn{
+    padding: 0.5rem 1rem !important;
+    border: 2px solid var(--dark-blue) !important;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+}
+
+.blueOutlinedBtn a{
+    color: var(--dark-blue) !important;
+    font-family: var(--heading-font) !important;
+    letter-spacing: 1px;
+    font-weight: var(--heading-font-weight) !important;
+}
+
+.blueOutlinedBtn:hover{
+    background-color: var(--dark-blue) !important;
+}
+
+.blueOutlinedBtn:hover a{
+    color: #fff !important;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1402px){
+    .blueOutlinedBtn{
+        padding: 0.25rem 0.5rem !important;
+        margin-left: 0.25rem !important;
+    }
+
+    .blueOutlinedBtn a{
+        font-size: 0.8rem !important;
+    }
+}
+
