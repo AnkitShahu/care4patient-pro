@@ -7,7 +7,7 @@ let Data = []
 
 const fetchData = async () => {
     try {
-        const response = await fetch('https://care4patients.com/api/wp-json/wp/v2/pages/6');
+        const response = await fetch('https://api.care4patients.com/wp-json/wp/v2/pages/6');
         if (!response.ok) {
             throw new Error('Failed to fetch data');
         }

@@ -29,7 +29,7 @@ const Home = ({ data }) => {
   useEffect(() => {
     const fetchFaq = async () => {
       try {
-        const response = await fetch('https://care4patients.com/api/wp-json/wp/v2/pages/6');
+        const response = await fetch('https://api.care4patients.com/wp-json/wp/v2/pages/6');
         const data = await response.json();
         console.log(data, "data faq")
         setFaq(data.acf.faq);

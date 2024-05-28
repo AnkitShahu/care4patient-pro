@@ -15,7 +15,7 @@ const ServiceSec = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://care4patients.com/api/wp-json/wp/v2/pages/6');
+        const response = await fetch('https://api.care4patients.com/wp-json/wp/v2/pages/6');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
@@ -24,7 +24,7 @@ const ServiceSec = () => {
         const updatedData = [];
   
         for (const item of apiData.acf.showcase_of_products) {
-          const mediaResponse = await fetch(`https://care4patients.com/api/wp-json/wp/v2/media/${item.images}`);
+          const mediaResponse = await fetch(`https://api.care4patients.com/wp-json/wp/v2/media/${item.images}`);
           if (!mediaResponse.ok) {
             throw new Error('Failed to fetch media');
           }
